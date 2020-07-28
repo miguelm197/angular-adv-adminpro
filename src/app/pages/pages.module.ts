@@ -13,6 +13,7 @@ import { DashboardComponent } from '../pages/dashboard/dashboard.component';
 import { ProgressComponent } from '../pages/progress/progress.component';
 import { Grafica1Component } from '../pages/grafica1/grafica1.component';
 import { PagesComponent } from '../pages/pages.component';
+import { CountSettingsComponent } from './count-settings/count-settings.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { PagesComponent } from '../pages/pages.component';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    CountSettingsComponent,
   ],
   imports: [CommonModule, SharedModule, RouterModule, FormsModule,ComponentsModule,ChartsModule],
   exports: [
@@ -27,6 +29,7 @@ import { PagesComponent } from '../pages/pages.component';
     ProgressComponent,
     Grafica1Component,
     PagesComponent,
+    CountSettingsComponent
   ],
 })
 export class PagesModule {}
